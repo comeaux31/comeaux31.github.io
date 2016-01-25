@@ -1,0 +1,223 @@
+body{
+    margin: 2.5in;
+    background-color: antiquewhite;
+    margin-top: 0;
+    color: black;
+
+}
+
+/* Main navi */
+.main-nav {
+    text-align: center;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid antiquewhite;
+}
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: antiquewhite;
+    box-shadow: 0 2px 2px black;
+    z-index: 9999;
+    outline-offset: 75px;
+}
+
+.sticky .main-nav { margin-top: 18px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: black;
+}
+
+#title{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration: underline;
+    color: black;
+}
+
+#emp{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration: underline; 
+    color: black;
+    font-size: 25px;   
+}
+
+#emp1{
+   text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration: underline; 
+    color: black;
+    font-size: 20px;     
+}
+
+.contact{ 
+text-align: center;
+}
+
+.object{
+    text-align: left;
+    
+}
+
+.cl {
+    -webkit-columns: 10em;
+    -moz-columns: 10em;
+    columns: 10em; /* desired width of column */
+    list-style: none;
+}
+
+/* separate the list from what follows it */
+div .con
+{
+  margin-bottom: 1em;
+}
+
+.dt, .o, .contact li{
+    position: relative;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+
+.dt li, .o li, .contact li{
+   flex-grow:.05;
+    flex-basis: auto;
+    
+    
+    text-align: center;
+    border-left: 1px solid black;
+    background-color:antiquewhite;
+}
+
+.o ul{
+    margin-left: -2em;
+    padding-left: 0em;
+}
+
+#rc{
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.sp{
+    border-left: 0px hidden #fff;
+}
+
+.contact ul {
+    margin-left: 1.25in;
+    font-size: 15px;
+}
+
+footer{
+    margin: 0;
+    border-top: 1px solid black;
+    background-color: antiquewhite;
+    
+}
+
+footer ul{
+    float:right;
+    padding-top: 2em;
+}
+
+footer ul li{
+    padding-left: 0.5em;
+    padding-right: 0.1em;
+}
+
+.btn-About {
+    border: 2px solid white;
+    color: white;
+    background-color: black
+}
+
+.life {
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: antiquewhite;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.life1:hover, .life:hover {
+    border: 1px solid antiquewhite;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: black;
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+}
+
+.life1{
+    padding-left:10px;
+    padding-right:10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: antiquewhite;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-icon {
+    
+    float: right;
+    margin-top: 0px;
+    cursor: pointer;
+    display:non;
+
+}
+
+
+.logo {
+    height: 75px;
+    width: auto;
+    float: left;
+    margin: 0px;
+    margin-left: -3.0in, auto;
+ 
+}
+
+nav {
+    display: inline;
+}
